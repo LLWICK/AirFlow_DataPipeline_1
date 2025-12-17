@@ -1,3 +1,5 @@
 .env
 .vscode
 .cache
+ec2
+ETLs/airflowCreds.txt
