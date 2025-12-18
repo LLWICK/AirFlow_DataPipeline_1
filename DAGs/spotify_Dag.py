@@ -3,14 +3,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime 
-import sys
-import os
-
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-)
-
-from ETLs.spotify_etl import run_spotify_etl
+from spotify_etl import run_spotify_etl
 
 default_args = {
     'owner': 'airflow',
