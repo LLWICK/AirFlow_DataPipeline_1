@@ -3,3 +3,4 @@
 .cache
 ec2
 ETLs/airflowCreds.txt
+__pycache__
