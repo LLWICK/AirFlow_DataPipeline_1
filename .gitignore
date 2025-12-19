@@ -5,3 +5,4 @@ ec2
 ETLs/airflowCreds.txt
 __pycache__
 ec2_v2
+ec2_v3
